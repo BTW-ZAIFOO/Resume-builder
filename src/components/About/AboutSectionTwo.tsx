@@ -28,29 +28,34 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  Bug free code
+                  Professionally Designed Templates
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Choose from a wide range of modern, ATS-friendly templates
+                  designed to highlight your skills and experience in the best
+                  possible way.
                 </p>
               </div>
+
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  Premier support
+                  Step-by-Step Resume Guidance
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Get clear, easy-to-follow instructions to craft a CV or resume
+                  that is well-structured, impactful, and tailored to your
+                  career goals.
                 </p>
               </div>
+
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  Next.js
+                  Easy Customization
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Edit text, adjust layout, and personalize your resume
+                  effortlessly to make it truly yours—without any design or
+                  coding skills needed.
                 </p>
               </div>
             </div>

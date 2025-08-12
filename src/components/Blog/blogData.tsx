@@ -3,45 +3,46 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "How to Create a Resume That Stands Out in 2025",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Learn the latest resume trends and formatting tips to catch recruiters’ attention and pass Applicant Tracking Systems (ATS) with ease.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Sarah Mitchell",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Career Coach",
     },
-    tags: ["creative"],
+    tags: ["resume", "career"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Top 10 Mistakes to Avoid in Your CV",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Avoid common CV pitfalls like poor formatting, generic summaries, and outdated skills to improve your chances of landing interviews.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "David Lee",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "HR Specialist",
     },
-    tags: ["computer"],
+    tags: ["job search", "tips"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "5 Power Words to Boost Your Resume",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Discover the key action verbs and impactful phrases that make your achievements stand out to hiring managers.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Emily Carter",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Recruitment Consultant",
     },
-    tags: ["design"],
+    tags: ["resume", "language"],
     publishDate: "2025",
   },
 ];
+
 export default blogData;

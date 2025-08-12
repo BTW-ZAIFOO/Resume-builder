@@ -1,18 +1,74 @@
-import { Brand } from "@/types/brand";
-import Image from "next/image";
-import brandsData from "./brandsData";
+"use client";
+
+import { motion } from "framer-motion";
+
+const loopItems = [
+  "🚀 Build Your CV in Minutes",
+  "💼 Stand Out to Employers",
+  "🎨 Modern Resume Templates",
+  "✅ ATS Friendly Layouts",
+];
 
 const Brands = () => {
   return (
-    <section className="pt-16">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="bg-gray-light dark:bg-gray-dark flex flex-wrap items-center justify-center rounded-xs px-8 py-8 sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
-              {brandsData.map((brand) => (
-                <SingleBrand key={brand.id} brand={brand} />
+    <section className="py-10 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+      <div className="container mx-auto">
+        <div className="relative">
+          {/* Desktop / Tablet (Horizontal Scroll) */}
+          <div className="hidden sm:flex overflow-hidden relative">
+            {/* First Loop */}
+            <motion.div
+              className="flex whitespace-nowrap"
+              initial={{ x: 0 }}
+              animate={{ x: "-100%" }}
+              transition={{
+                repeat: Infinity,
+                ease: "linear",
+                duration: 18,
+              }}
+            >
+              {loopItems.map((text, index) => (
+                <span
+                  key={index}
+                  className="mx-12 text-lg font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent tracking-wide"
+                >
+                  {text}
+                </span>
               ))}
-            </div>
+            </motion.div>
+
+            {/* Second Loop */}
+            <motion.div
+              className="flex whitespace-nowrap absolute top-0 left-full"
+              initial={{ x: 0 }}
+              animate={{ x: "-100%" }}
+              transition={{
+                repeat: Infinity,
+                ease: "linear",
+                duration: 18,
+              }}
+            >
+              {loopItems.map((text, index) => (
+                <span
+                  key={`second-${index}`}
+                  className="mx-12 text-xl font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent tracking-wide"
+                >
+                  {text}
+                </span>
+              ))}
+            </motion.div>
+          </div>
+
+          {/* Mobile (Stacked) */}
+          <div className="flex flex-col items-center gap-3 sm:hidden">
+            {loopItems.map((text, index) => (
+              <span
+                key={`stacked-${index}`}
+                className="text-base font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent tracking-wide text-center"
+              >
+                {text}
+              </span>
+            ))}
           </div>
         </div>
       </div>
@@ -21,21 +77,3 @@ const Brands = () => {
 };
 
 export default Brands;
-
-const SingleBrand = ({ brand }: { brand: Brand }) => {
-  const { href, image, imageLight, name } = brand;
-
-  return (
-    <div className="flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
-      <a
-        href={href}
-        target="_blank"
-        rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
-      >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
-      </a>
-    </div>
-  );
-};

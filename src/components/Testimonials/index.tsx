@@ -5,29 +5,56 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sarah Johnson",
+    designation: "Marketing Manager at BrightPath Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The CV Builder helped me land my dream job! The templates are modern, ATS-friendly, and so easy to customize. I created a professional resume in minutes.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "James Lee",
+    designation: "Software Engineer at TechCore",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "This platform made building my resume stress-free. The pre-written suggestions and clean layouts saved me hours of work and improved my chances of getting interviews.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Emily Carter",
+    designation: "Recent Graduate, University of London",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a fresh graduate, I wasn’t sure how to create a strong CV. This tool guided me step-by-step and helped me present my skills in the best way possible.",
     image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Michael Harris",
+    designation: "HR Manager at TalentBridge",
+    content:
+      "I review dozens of resumes daily, and I can confidently say the ones made with this CV Builder stand out. It’s perfect for creating professional, eye-catching CVs.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 5,
+    name: "Olivia Bennett",
+    designation: "Project Coordinator at GreenLeaf Corp",
+    content:
+      "The resume suggestions were spot-on for my industry. I updated my CV in under 15 minutes and received two interview calls within a week.",
+    image: "/images/testimonials/auth-02.png",
+    star: 5,
+  },
+  {
+    id: 6,
+    name: "Daniel Parker",
+    designation: "Freelance Graphic Designer",
+    content:
+      "As a creative, I loved the customization options. I could showcase my portfolio and skills in a way that felt uniquely mine while keeping it professional.",
+    image: "/images/testimonials/auth-01.png",
     star: 5,
   },
 ];
@@ -37,8 +64,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Users Say"
+          paragraph="Professionals and job seekers worldwide trust our CV Builder to craft resumes that stand out. Hear from those who have landed interviews and jobs using our platform."
           center
         />
 

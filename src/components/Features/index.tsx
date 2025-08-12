@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Our CV/Resume builder offers professional templates, easy customization, and instant downloads to help you create a job-winning resume in minutes."
             center
           />
 

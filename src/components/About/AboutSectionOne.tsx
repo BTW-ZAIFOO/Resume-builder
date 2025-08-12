@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="We Believe Your CV/Resume Should Be Clear, Professional, and Impactful"
+                paragraph="Our platform is designed to help you create resumes that are not only easy to read but also tailored to showcase your skills effectively—helping you stand out in today’s competitive job market."
                 mb="44px"
               />
 
@@ -35,20 +35,18 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Professional & modern templates" />
+                    <List text="Easy-to-use editor" />
+                    <List text="Lifetime access to your resumes" />
                   </div>
-
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Customizable design & layout" />
+                    <List text="Step-by-step guidance" />
+                    <List text="ATS-friendly formatting" />
                   </div>
                 </div>
               </div>
             </div>
-
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image

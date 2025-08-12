@@ -1,7 +1,5 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
-import Breadcrumb from "@/components/Common/Breadcrumb";
-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,12 +10,7 @@ export const metadata: Metadata = {
 const Blog = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
-      <section className="pt-[120px] pb-[120px]">
+      <section className="pt-40 pb-5">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
@@ -30,58 +23,58 @@ const Blog = () => {
             ))}
           </div>
 
-          <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
-            <div className="w-full px-4">
-              <ul className="flex items-center justify-center pt-8">
-                <li className="mx-1">
+          <div className="-mx-2 flex flex-wrap py-4" data-wow-delay=".15s">
+            <div className="w-full px-2">
+              <ul className="flex flex-wrap items-center justify-center gap-2 pt-8 sm:gap-3">
+                <li>
                   <a
                     href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs transition hover:text-white sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm"
                   >
                     Prev
                   </a>
                 </li>
-                <li className="mx-1">
+                <li>
                   <a
                     href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs transition hover:text-white sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm"
                   >
                     1
                   </a>
                 </li>
-                <li className="mx-1">
+                <li>
                   <a
                     href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs transition hover:text-white sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm"
                   >
                     2
                   </a>
                 </li>
-                <li className="mx-1">
+                <li>
                   <a
                     href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs transition hover:text-white sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm"
                   >
                     3
                   </a>
                 </li>
-                <li className="mx-1">
-                  <span className="bg-body-color/15 text-body-color flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md px-4 text-sm">
+                <li>
+                  <span className="bg-body-color/15 text-body-color flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm">
                     ...
                   </span>
                 </li>
-                <li className="mx-1">
+                <li>
                   <a
                     href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs transition hover:text-white sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm"
                   >
                     12
                   </a>
                 </li>
-                <li className="mx-1">
+                <li>
                   <a
                     href="#0"
-                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                    className="bg-body-color/15 text-body-color hover:bg-primary flex h-8 min-w-[32px] items-center justify-center rounded-md px-3 text-xs transition hover:text-white sm:h-9 sm:min-w-[36px] sm:px-4 sm:text-sm"
                   >
                     Next
                   </a>
