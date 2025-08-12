@@ -6,7 +6,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | CV/Resume Builder",
-  description: "This is the Blog Details Page for CV/Resume Builder, sharing expert tips on building professional resumes.",
+  description:
+    "This is the Blog Details Page for CV/Resume Builder, sharing expert tips on building professional resumes.",
 };
 
 const BlogDetailsPage = () => {
@@ -40,21 +41,15 @@ const BlogDetailsPage = () => {
                     </div>
                     <div className="mb-5 flex items-center">
                       <p className="text-body-color mr-5 flex items-center text-base font-medium">
-                        <span className="mr-3">
-                          {/* Calendar Icon */}
-                        </span>
+                        <span className="mr-3">&nbsp;</span>
                         12 Jan 2024
                       </p>
                       <p className="text-body-color mr-5 flex items-center text-base font-medium">
-                        <span className="mr-3">
-                          {/* Comment Icon */}
-                        </span>
+                        <span className="mr-3">&nbsp;</span>
                         50
                       </p>
                       <p className="text-body-color flex items-center text-base font-medium">
-                        <span className="mr-3">
-                          {/* Views Icon */}
-                        </span>
+                        <span className="mr-3">&nbsp;</span>
                         35
                       </p>
                     </div>
@@ -70,7 +65,11 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Your CV is the first impression employers have of you. A well-structured, visually appealing, and content-rich resume can be the deciding factor in landing an interview. Here are proven tips to make your CV stand out in a competitive job market.
+                    Your CV is the first impression employers have of you. A
+                    well-structured, visually appealing, and content-rich resume
+                    can be the deciding factor in landing an interview. Here are
+                    proven tips to make your CV stand out in a competitive job
+                    market.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="relative aspect-97/60 w-full sm:aspect-97/44">
@@ -83,16 +82,24 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Before you start designing your CV, research the role and industry. Use relevant keywords and keep the format professional. Remember, hiring managers spend only a few seconds scanning each resume, so clarity and impact are key.
+                    Before you start designing your CV, research the role and
+                    industry. Use relevant keywords and keep the format
+                    professional. Remember, hiring managers spend only a few
+                    seconds scanning each resume, so clarity and impact are key.
                   </p>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Avoid generic statements—show measurable achievements instead. Tailor your CV for every application and ensure your most important skills are easily noticeable.
+                    Avoid generic statements—show measurable achievements
+                    instead. Tailor your CV for every application and ensure
+                    your most important skills are easily noticeable.
                   </p>
                   <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
                     Key Elements of a Professional CV
                   </h3>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    A professional CV includes your contact information, a strong summary, relevant work experience, education, and key skills. For creative roles, consider adding a portfolio link.
+                    A professional CV includes your contact information, a
+                    strong summary, relevant work experience, education, and key
+                    skills. For creative roles, consider adding a portfolio
+                    link.
                   </p>
                   <ul className="text-body-color mb-10 list-inside list-disc">
                     <li className="mb-2">Clear and professional formatting</li>
@@ -102,11 +109,15 @@ const BlogDetailsPage = () => {
                   </ul>
                   <div className="bg-primary/10 relative z-10 mb-10 overflow-hidden rounded-md p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-body-color text-center text-base font-medium italic">
-                      “Your CV is not just a document—it’s your personal marketing tool. Make it concise, impactful, and tailored for the role you want.”
+                      “Your CV is not just a document—it’s your personal
+                      marketing tool. Make it concise, impactful, and tailored
+                      for the role you want.”
                     </p>
                   </div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Using our CV/Resume Builder, you can choose from modern templates, optimize your content with AI suggestions, and export in multiple formats ready to apply anywhere.
+                    Using our CV/Resume Builder, you can choose from modern
+                    templates, optimize your content with AI suggestions, and
+                    export in multiple formats ready to apply anywhere.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">

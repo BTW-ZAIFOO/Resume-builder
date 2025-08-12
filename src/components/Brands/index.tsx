@@ -11,12 +11,10 @@ const loopItems = [
 
 const Brands = () => {
   return (
-    <section className="py-10 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+    <section className="overflow-hidden bg-gradient-to-r from-indigo-50 to-purple-50 py-10 dark:from-gray-900 dark:to-gray-800">
       <div className="container mx-auto">
         <div className="relative">
-          {/* Desktop / Tablet (Horizontal Scroll) */}
-          <div className="hidden sm:flex overflow-hidden relative">
-            {/* First Loop */}
+          <div className="relative hidden overflow-hidden sm:flex">
             <motion.div
               className="flex whitespace-nowrap"
               initial={{ x: 0 }}
@@ -30,16 +28,15 @@ const Brands = () => {
               {loopItems.map((text, index) => (
                 <span
                   key={index}
-                  className="mx-12 text-lg font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent tracking-wide"
+                  className="mx-12 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-lg font-semibold tracking-wide text-transparent"
                 >
                   {text}
                 </span>
               ))}
             </motion.div>
 
-            {/* Second Loop */}
             <motion.div
-              className="flex whitespace-nowrap absolute top-0 left-full"
+              className="absolute top-0 left-full flex whitespace-nowrap"
               initial={{ x: 0 }}
               animate={{ x: "-100%" }}
               transition={{
@@ -51,7 +48,7 @@ const Brands = () => {
               {loopItems.map((text, index) => (
                 <span
                   key={`second-${index}`}
-                  className="mx-12 text-xl font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent tracking-wide"
+                  className="mx-12 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-xl font-semibold tracking-wide text-transparent"
                 >
                   {text}
                 </span>
@@ -59,12 +56,11 @@ const Brands = () => {
             </motion.div>
           </div>
 
-          {/* Mobile (Stacked) */}
           <div className="flex flex-col items-center gap-3 sm:hidden">
             {loopItems.map((text, index) => (
               <span
                 key={`stacked-${index}`}
-                className="text-base font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent tracking-wide text-center"
+                className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-center text-base font-semibold tracking-wide text-transparent"
               >
                 {text}
               </span>
