@@ -8,15 +8,14 @@ const Contact = () => {
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="shadow-three dark:bg-gray-dark mb-12 rounded-xs bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
-              data-wow-delay=".15s
-              "
+              data-wow-delay=".15s"
             >
               <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-white">
                 Contact Us
               </h2>
               <p className="text-body-color mb-12 text-base font-medium">
                 Interested in collaborating, hiring, or networking? Fill out the
-                form below and We'll get back to you as soon as possible.
+                form below and We&apos;ll get back to you as soon as possible.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">

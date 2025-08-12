@@ -16,7 +16,7 @@ const Hero = () => {
                 </h1>
                 <p className="text-body-color dark:text-body-color-dark mb-12 text-base leading-relaxed! sm:text-lg md:text-xl">
                   Build a standout CV or resume with ease using our all-in-one
-                  platform. Whether you're a student, professional, or job
+                  platform. Whether you&apos;re a student, professional, or job
                   seeker, we provide the perfect tools to craft documents that
                   leave a lasting impression.
                 </p>
@@ -40,12 +40,7 @@ const Hero = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
-              cx="277"
-              cy="63"
-              r="225"
-              fill="url(#paint0_linear_25:217)"
-            />
+            <circle cx="277" cy="63" r="225" fill="url(#paint0_linear_25:217)" />
             <circle
               cx="17.9997"
               cy="182"
